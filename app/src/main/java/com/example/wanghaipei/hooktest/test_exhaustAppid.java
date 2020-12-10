@@ -115,7 +115,7 @@ public class test_exhaustAppid implements IXposedHookLoadPackage {
                             super.afterHookedMethod(param);
                             Log.d("UpdateAppParam","getRequestMainPackage结束了！");
                             Pair res =(Pair) param.getResult();
-                            Log.d("UpdateAppParam",res.toString());
+                            //todo:res的内容要怎么打印呢
                         }
                     });
                 }
